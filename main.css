@@ -1,0 +1,92 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('banner.jpg');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.jumbotron .container {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  top:420px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 68px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 50px;
+}
+
+.neighborhood-guides p{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.child {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+
+}
+.thumbnail{
+    background:none;
+}
+
+.thumbnail:hover{ background:white;-moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc; } 
+

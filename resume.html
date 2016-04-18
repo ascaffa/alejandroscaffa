@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+
+  <body>
+    <div class="nav nav-pills">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="resume.html" style="color:red">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://alejandroscaffa.wordpress.com/" target="_blank">Blog</a></li>
+
+        </ul>
+        <ul class="pull-right">
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="Awards.html">Awards</a></li>
+        </ul>
+      </div>
+    </div>
+<br><br>
+        
+        <div class ="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                   <a href="about.html">
+  <img src="aboutme.png" style="height:300px;width:300px;" >
+</a>
+  </div>
+
+  <div class="thumbnail">
+    <a href="contact.html">
+  <img src="contact.png" style="height:300px;width:300px;">
+</a>
+  </div>
+            </div>
+             <div class="col-md-4">
+               <div class="thumbnail">
+                <a href="research.html">
+  <img src="research.png" style="height:300px;width:300px;">
+</a>
+  </div>
+
+
+  <SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Password is behind my business card. If you do not have my card, contact me! Please Enter the Password:',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "letmein") {
+alert('You Got it Right!');
+window.open('Scaffa CV Nov 2015.pdf');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
+
+
+  <div class="thumbnail">
+    <a href="resume.html">
+  <img src="resume.png" style="height:300px;width:300px;opacity:0.3;filter:alpha(opacity=60);" >
+</a>
+  </div> 
+            </div>
+             <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="publications.html">
+  <img src="publications.png" style="height:300px;width:300px;" >
+</a>
+  </div>
+  <div class="thumbnail">
+    <a href="Awards.html">
+  <img src="awards.png" style="height:300px;width:300px;">
+</a>
+  </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
