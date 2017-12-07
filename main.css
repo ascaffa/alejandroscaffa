@@ -84,9 +84,33 @@
     margin: auto;
 
 }
+.line_break{
+    width:1000px;
+    height: 5px;
+    float: left;
+    color: black;
+    //padding-top: 3px;
+    background-color: rgba(255,255,255,.5);
+    border: none;
+    border-bottom: 3px solid black;}
+
 .thumbnail{
     background:none;
 }
 
 .thumbnail:hover{ background:white;-moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc; } 
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+
 

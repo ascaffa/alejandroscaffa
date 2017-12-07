@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-76627208-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
   <head>
-
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     
@@ -23,13 +14,13 @@
       <div class="container">
         <ul class="pull-left">
           <li><a href="about.html">About Me</a></li>
-          <li><a href="Scaffa CV Nov 2015.pdf">Resume</a></li>
+          <li><a href="Scaffa_CV.pdf">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="https://alejandroscaffa.wordpress.com/" target="_blank">Blog</a></li>
 
         </ul>
         <ul class="pull-right">
-          <li><a href="publications.html">Published Work</a></li>
+          <li><a href="publications.html">Publications</a></li>
           <li><a href="research.html" style="color:red">Research</a></li>
           <li><a href="Awards.html">Awards</a></li>
         </ul>
@@ -37,65 +28,32 @@
     </div>
 <div class="neighborhood-guides"> 
     <div class="container">
-        <h2> What is Splicing and why should we study it? </h2>
-  I know what splicing is, take me to <a href="#Research">current projects</a> below
+        <h2> What is Bronchopulmonary Displasia (BPD) and why should we study it? </h2>
+  I know what BPD is, take me to <a href="#Research">Research</a>
         <p> 
-          <p style="text-align:center;"><img src="splicing_expl_ori.jpg"></p>
-          <p style="text-align:center;"> Spliceosome performing pre-mRNA splicing</p>
-<p> The majority of genes in humans contain non-coding sequences, called introns, and coding sequences, the exons.  Pre-mRNA splicing is the process by which precursor mRNA (pre-mRNA) is converted into mature RNA (mRNA) by the removal of its introns and the ligation of the coding exons by the spliceosome machinery. The spliceosome is a large complex of proteins that carries out splicing co-transcriptionally. The U2 spliceosome, the most abundant in humans, is composed of five small nuclear RNAs (snRNAs) called U1, U2, U4, U5, and U6, and many other helper proteins. snRNAs recognize motifs in DNA sequence that define the intron and therefore guide the spliceosome to correct cleaveage. The most important motifs are the 5' splice site (5'SS) which denotes the beginning of the intron by GT, the 3' splice site (3'SS) which denotes the end of the intron by an AG sequence, and the branch point (an A usually 30-40 nucleotides away of the 3'SS into the intron).  
+          <p style="text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/CXR_-_Bronchopulmonary_dysplasia.jpg"height="315" width="344"></p>
+          <p style="text-align:center;"> a radiograph of BPD (source: wikipedia)</p>
+<p> Bronchopulmonary Displasia is a lung disease developed often by underweight premature babies. These babies often go through stress from prematurity and birth often causing Respiratory Distress Syndrome, a disease that usually precedes BPD. A factor that further places a child at risk for BPD is mechanical oxygen ventilation, which although life saving it does not come without its setbacks. Mild BPD can cause some dependancy on ventilation and low blood oxygen levels. Yet, when severe, this chronic disorder can cause severe inflamation and scarring leading to problems in lung development and even neurological complications that can even cause  visual, auditory, and learning disabilities. 
   <br>
-  <p style="text-align:center;"><img src="splicesites.png"></p>
-          <p style="text-align:center;"> Splice site motifs</p>
-<p>Even though the introns are defined by the splice sites, splicing is highly context dependent. There are many DNA motifs (cis-elements) and proteins (trans-elements) that play a role in how the spliceosome carries out splicing. Alternative splicing is when the spliceosome doesn't carry out splicing canonically where all introns are removed and all exons ligated.  About 95% of human genes undergo alternative splicing. Alternative splicing serves the purpose to increase the number of mRNA products any one gene can produce, as it allows for skipping exons or adding introns into mRNA. That, in turn, may destroy the function of the protein the mRNA codes for or even give it a different function.<br>
-<p style="text-align:center;"><img src="alt_splicing_ori.jpg"></p>
-          <p style="text-align:center;"> Alternative splicing may create functionally different proteins!</p>
-<p>This brings us to the reason of why to study splicing. 1/3 of all disease causing genetic mutations are splicing related, so, one must study splicing in order to better understand the underlaying causes for this diseases. Furthermore, alternative splicing is a reversible process, which means that by studying how mutations affect the spliceosome, one might even find novel drug targets.<br><br>
-<div class="neighborhood-guides"> 
-    <div class="container">
-        <h2 id="Research">Using CRISPR to create model cell lines for splicing studies</h2>
-        <p> 
-The CRISPR-Cas9 system is an RNA guided DNA cleaving gene editing tool. The system has three components: 
-<br>
-<un>
-<li> <p>Cas 9: A double-stranded DNA cleaving endonuclease called</p></li>
+          <h2> How does Senescence relate to BPD?</h2>
+            <p style="text-align:center;"><img src="senescence.png"height="277" width="734"></p>
+          <p style="text-align:center;"> Stains for SA-B-Gal a marker of senescence, senescent cells on right (source: wikipedia)</p>
 
-<br>
-<li> <p>sgRNA: a 23-nucleotide guideRNA, required to end in 'NGG attached to a cr/tracrRNA complex that aligns and helps the guideRNA and Cas9 to interact </p></li>
-<br>
-</un>
-<br>
-<br>
-
-<p style="text-align:center;"><img src="crispr_ori.png"></p>
-          <p style="text-align:center;"> CRISPR-Cas9: A gene editing tool that allows for knock-in and knock-out mutations.</p>
-
-
-  </body>
-</html>
+<p>Senescence is a natural biological function that switches the cell from its regular proliferative state to non-proliferative, meaning that the cell ceases to divide. Senescence, which is permanent, can be caused by a multitude of reasons such as age of the cell, telomere shortening, DNA damage, and/or stress. Becaus the cells cannot proliferate after senescence, it is a powerful tool against cancer, as it will prevent the unlimited proliferation seen in cancer. Yet, agressive cancers have found ways around senescence.
+Senescence relates to BPD given that hyperoxia induces senescence. High levels of oxygen are seen by babies with BPD because of their need for mechanical ventilation. Interestingly, cells under senescence will still be highly active, which begs the question as to whether they are protective or harmful in the pathology of BPD. Understanding BPD and the effects of senescence on it is of high impact to the field because we could help neonatal babies going through this detrimental disease, this is why we are interested in studying the effects of hyperoxia induced senescence in BPD. <br>
+<br><br>
 
 <div class="neighborhood-guides"> 
     <div class="container">
-       <p> 
-Once all of these components are together, Cas9 is ready to recognize its DNA target and cleave it. CRISPR allows for genome engineering through either knock-out mutations, through non-homologous end joining (NHEJ) DNA repair mechanism, or knock in mutations, through homology directed repair (HDR) mechanism. <br><br>
-
-My goal is to knock-in specific splicing-disrupting point mutations cell lines (currently HEK-293, HeLa, and SY5Y). By doing so we create a more realistic model to study splicing in comparison to the minigene constructs the field currently uses. Although the best high throghput manner to study splicing is through minigene and computational biology, through CRISPR we aim to validate the accuracy of such assays.<br><br>
-
-We are currently knocking-in mutations that are related to Autism Spectrum Disorder (ASD). Cell lines containing ASD related mutations will then undergo various molecular, physiological, splicing and deep-sequencing studies to confirm the results of our splicing assays as well as corroborate a possible phenotype caused by the mutation.
-
-
-</p>
-<div class="neighborhood-guides"> 
-    <div class="container">
-        <h2> Finding the role of splicing in Autism Spectrum Disorder </h2>
-       <p style="text-align:center;"><img src="autism_ori.jpg"></p>
-       <p style="text-align:center;"> Autism and some of its symptoms.</p>
-<p> Autism Spectrum Disorder (ASD) is a class of neurodevelopmental disorders that manifest by communication and social impairments as well as repetitive behaviors. As of 2014, 1 in 68 children were diagnosed with ASD, with almost 80% being male.  Although the molecular basis for autism have not been fully elucidated, the Simon's Foundation for Autism Research Initiative (SFARI) has funded research that allowed for the characterization of over 100000 denovo and inherited genetic variants that are ASD related, as well as SFARI gene, a scoring database for over 300 genes that are most likely to play a role in ASD. We will deeply study the effects of these variants in splicing, as well as elucidate the reason for their effects, using our high throughput studies and computational analysis approaches.<br>
+        <h2 id="Research"> Finding the role of hyperoxia induced senescence in the metabolism of lung cells </h2>
+       <p style="text-align:center;"><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4310776/bin/acel0014-0001-f1.jpg" height="370" width="467"></p>
+       <p style="text-align:center;"> Perturbation of Mitochondrial Homeostasis leading to Senescecnce (source: Ziegler et al., 2014)</p>
+<p> BPD is a chronic lung disorder often seen in low weight premature babies that were born with Respiratory Distress Syndrome. This disorder is treated in part by mechanical ventilation which exposes the baby to hyperoxia. Hyperoxia can be a stressor, for example leading to oxidative damage, which may lead to hyperoxia induced senescence. As you can see on the figure above, many pathways lead to senescence, include those connected by the p16 and p53 tumor supressor oncogenes. We don't yet know the specific pathway in which hyperoxia triggers senescence, nor do we know what role senescence plays in BPD. My goal is to understand the impact of hyperoxia on markers of senescence and which metabolic shifts hyperoxia induced senescence causes. If you are interested in my research and want to learn more please contact me <a href="contact.html">here</a><br>
 
 </p>
 
-<br><br>
-<hr style="margin-top: 5px; height: 2px; border: none; background: #808080;"/>
-<br><br>
+<br>
+<br>
 
         
         <div class ="row">
@@ -120,7 +78,7 @@ We are currently knocking-in mutations that are related to Autism Spectrum Disor
   </div>
 
   <div class="thumbnail">
-    <a href="Scaffa CV Nov 2015.pdf">
+    <a href="Scaffa_CV.pdf">
   <img src="resume.png" style="height:300px;width:300px;" >
 </a>
   </div> 
